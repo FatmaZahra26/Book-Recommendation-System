@@ -12,16 +12,19 @@ L’ensemble de données contenait trois fichiers : un relatif aux livres, un de
 ## 🔧 Pré-traitement
 Nous avons effectué les étapes suivantes pour préparer les données:
 
-Suppression des utilisateurs qui donnent la même note à tous les livres qu’ils ont évalués.
-Suppression des utilisateurs qui ont noté moins de 8 livres.
-Suppression des livres qui sont évalués par moins de 8 utilisateurs.
+* Suppression des utilisateurs qui donnent la même note à tous les livres qu’ils ont évalués.
+* Suppression des utilisateurs qui ont noté moins de 8 livres.
+* Suppression des livres qui sont évalués par moins de 8 utilisateurs.
 
 ## 📈 Travail demandé
 
-Nous avons proposé des méthodes de recommandation basées sur le filtrage collaboratif en testant différentes variations des paramètres (distance, k, ...).
-Nous avons présenté des graphiques significatifs relatifs aux données et résultats.
-Pour chaque méthode proposée, nous avons affiché les informations relatives à l'utilisateur et présenté le Top 3 des livres à lui recommander. Pour chaque livre recommandé, nous avons affiché toutes les informations relatives à ce livre.
-Nous avons suggéré puis appliqué une stratégie d’évaluation des méthodes de recommandation proposées afin d’analyser et de comparer ces différentes méthodes, en se basant sur plusieurs critères d’évaluation.
+* Nous avons proposé des méthodes de recommandation basées sur le filtrage collaboratif en testant différentes variations des paramètres (distance, k, ...).
+
+* Nous avons présenté des graphiques significatifs relatifs aux données et résultats.
+
+*Pour chaque méthode proposée, nous avons affiché les informations relatives à l'utilisateur et présenté le Top 3 des livres à lui recommander. Pour chaque livre recommandé, nous avons affiché toutes les informations relatives à ce livre.
+
+* Nous avons suggéré puis appliqué une stratégie d’évaluation des méthodes de recommandation proposées afin d’analyser et de comparer ces différentes méthodes, en se basant sur plusieurs critères d’évaluation.
 
 ## 📝 Evaluation du projet
 
