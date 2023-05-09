@@ -1,35 +1,31 @@
 
-# 📚 PROJET 4 : Recommandation des livres 📚
+📚 PROJECT 4: Book Recommendation 📚
+We developed a book recommendation system based on collaborative filtering.
 
-Nous avons développé un système de recommandation de livres basé sur le filtrage collaboratif en utilisant Python.
+📋 Description
+The aim of this project was to apply different collaborative filtering methods to recommend books to users.
 
-## 📋 Description
-L’objectif de ce projet était d’appliquer différentes méthodes de filtrage collaboratif pour recommander des livres à des utilisateurs.
+📊 Dataset
+The dataset contained three files: one for books, one for preferences (ratings), and one for users. The data files were downloaded from this link: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset.
 
-## 📊 Ensemble de données
-L’ensemble de données contenait trois fichiers : un relatif aux livres, un deuxième relatif aux préférences (ratings) et un dernier relatif aux utilisateurs. Les fichiers de données ont été téléchargés à partir de ce lien: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+🔧 Pre-processing
+We performed the following steps to prepare the data:
 
-## 🔧 Pré-traitement
-Nous avons effectué les étapes suivantes pour préparer les données:
+Removing users who give the same rating to all books they have rated.
+Removing users who have rated less than 8 books.
+Removing books that are rated by fewer than 8 users.
+📈 Work required
+We proposed recommendation methods based on collaborative filtering by testing different parameter variations (distance, k, ...).
 
-* Suppression des utilisateurs qui donnent la même note à tous les livres qu’ils ont évalués.
-* Suppression des utilisateurs qui ont noté moins de 8 livres.
-* Suppression des livres qui sont évalués par moins de 8 utilisateurs.
+We presented significant graphs related to the data and results.
 
-## 📈 Travail demandé
+For each proposed method, we displayed user information and presented the Top 3 recommended books for them. For each recommended book, we displayed all information related to that book.
 
-* Nous avons proposé des méthodes de recommandation basées sur le filtrage collaboratif en testant différentes variations des paramètres (distance, k, ...).
+We suggested and applied a strategy to evaluate the proposed recommendation methods in order to analyze and compare these different methods, based on several evaluation criteria.
 
-* Nous avons présenté des graphiques significatifs relatifs aux données et résultats.
+📝 Project evaluation
 
-* Pour chaque méthode proposée, nous avons affiché les informations relatives à l'utilisateur et présenté le Top 3 des livres à lui recommander. Pour chaque livre recommandé, nous avons affiché toutes les informations relatives à ce livre.
-
-* Nous avons suggéré puis appliqué une stratégie d’évaluation des méthodes de recommandation proposées afin d’analyser et de comparer ces différentes méthodes, en se basant sur plusieurs critères d’évaluation.
-
-## 📝 Evaluation du projet
-
-Le projet a été réalisé en Python.
-L’évaluation du projet s'est basée sur un notebook détaillé et structuré suivant la méthode CRISP-DM contenant le descriptif du travail réalisé (en présentant les détails des différentes méthodes utilisées) ainsi que le code.
-Une présentation orale a également été requise pour présenter les résultats.
+The project evaluation was based on a detailed and structured notebook following the CRISP-DM method containing the description of the work done (presenting the details of the different methods used) as well as the code.
+An oral presentation was also required to present the results.
 
 🚀 Let's recommend some books! 🚀
